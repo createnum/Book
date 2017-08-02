@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    }
+]

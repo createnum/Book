@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "D:\\android\\workspace\\HelloWorld\\libraryRefreshList\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    }
+]

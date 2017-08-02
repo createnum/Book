@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_relative_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mybook.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/book_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/book_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_main_bar"
+            android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/actionbar_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true" >
+
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_shelf_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/bg_tab_select"
+                        android:gravity="center"
+                        android:text="@string/book_shelf"
+                        android:textColor="@color/book_default_red"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_store"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="@string/book_store"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout> 
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.wangc.mybook.assembly.MainViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/ActionBarLayout_inner"
+        android:layout_alignLeft="@+id/book_layout1"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/book_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/selector_btn_actionbar"
+            android:paddingLeft="10dp" >
+
+            <ImageView
+                android:id="@+id/book_menu_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_bar_menu" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/book_search"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:src="@drawable/btn_bar_shearch" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/contextLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
